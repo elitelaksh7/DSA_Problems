@@ -10,6 +10,7 @@ Returns:
 """
 
 from collections import deque
+from typing import List
 class Solution:
     def shortestPathBinaryMatrix(self, arr: List[List[int]]) -> int:
         dir = [(-1,-1),(-1,0),(-1,1),(0,-1),(0,0),(0,1),(1,-1),(1,0),(1,1)]
